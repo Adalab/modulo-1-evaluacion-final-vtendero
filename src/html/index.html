@@ -1,117 +1,20 @@
 <!DOCTYPE html>
 <html lang="es">
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Anonymous Proxy</title>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="./assets/css/main.css" />
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Anonymous Proxy</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
 
-<body>
-  <div class="page">
-    <header class="header" id="start" >
-      <nav class="header__nav">
-        <a clas="header__nav--link" href="https://adalab.es/" target="_blank" title="Menu">
-          <img class="header__nav--menu" src="./assets/images/icons/ico-menu.svg" alt="Menu" title="Menu">
-        </a>
-      </nav>
-
-      <div class="header__div">
-        <div class="header__div--title">
-          <h1 class="div__title--title">Anonymous Proxy</h1>
-          <p class="div__title--text">In hac habitasse platea dictumst.</p>
-        </div>
-        <button class="header__div--button">
-          <a class="div__button--link" href="./index.html/#section3ReasonsToPurchase" title="scrolldown">
-            <img class="button__link--scrolldown" src="./assets/images/icons/ico-scroll-down.svg" alt="Go to section: 3 Reasons To Purchase" title="Go to section: 3 Reasons To Purchase">
-          </a>
-        </button>
-      </div>
-    </header>
-
-    <main class="main">
-      <section class="main__section--one">
-        <p class="section__one--tips">Insomnia Tips</p>
-        <h2 class="section__one--title">Looking Through A Window</h2>
-        <p class="section__one--text">Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at luctus ex diam nec lectus. Vivamus semper sodales rutrum.</p>
-        <button class="section__one--button">
-          <a class="one__button--link" href="" title="Go">Go</a> 
-        </button>
-      </section>
-
-      <section class="main__section--two" id="section3ReasonsToPurchase">
-        <h2 class="section__two--title">3 Reasons To Purchase</h2>
-
-        <article class="section__two--article1">
-          <h3 class="two__article1--title">Ut sed metus</h3>
-          <p class="two__article1--text">Lorem ipsum dolor sit amet, consecteur.</p>
-        </article>
-
-        <article class="section__two--article2">
-          <h3 class="two__article2--title">Curabitur ac erat</h3>
-          <p class="two__article2--text">Mauris mattis urna quis lorem molestie.</p>
-        </article>
-
-        <article class="section__two--article3">
-          <h3 class="two__article3--title">Morbi dictum</h3>
-          <p class="two__article3--text">Aliquam in dolor et dolor tincidunt.</p>
-        </article>
-
-        <button class="section__two--button">
-          <a class="two__button--link" href="" title="More reasons">More reasons</a>
-        </button>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <button class="footer__button">
-          <a class="footer__button--link" href="./index.html#start" title="arrow">
-            <img class="button__link--arrow" src="./assets/images/icons/ico-arrow.svg" alt="Go up to start" title="Go up to start">
-          </a>
-      </button>
-
-      <nav class="footer__nav">
-        <ul class="nav__list--articles">
-          <li class="list__articles--item">
-            <a href="https://adalab.es/" target="_blank" title="Articles">Articles</a>
-          </li>
-          <li class="list__articles--item">
-            <a href="https://adalab.es/" target="_blank" title="Books">Books</a>
-          </li>
-          <li class="list__articles--item">
-            <a href="https://adalab.es/" target="_blank" title="Events">Events</a>
-          </li>
-          <li class="list__articles--item">
-            <a href="https://adalab.es/" target="_blank" title="Reasons">Reasons</a>
-          </li>
-          <li class="list__articles--item">
-            <a href="https://adalab.es/" target="_blank" title="Tips">Tips</a>
-          </li>
-        </ul>
-
-        <ul class="nav__list--socialmedia">
-          <li class="list__socialmedia--item">
-            <a href="https://adalab.es/" target="_blank" title="Twitter">Twitter</a>
-          </li>
-          <li class="list__socialmedia--item">
-            <a href="https://adalab.es/" target="_blank" title="Instagram">Instagram</a>
-          </li>
-          <li class="list__socialmedia--item">
-            <a href="https://adalab.es/" target="_blank" title="Mastodon.social">Mastodon.social</a>
-          </li>
-        </ul>
-      </nav>
-
-      <div class="footer__div">
-        <small class="footer__div--copy">©2021</small>
-        <small class="footer__div--name">we ❤︎ components</small>
-      </div>
-    </footer>
-  </div>
-</body>
+  <body class="page">
+    <include src="./partials/header.html"></include>
+    <include src="./partials/main.html"></include>
+    <include src="./partials/footer.html"></include>
+  </body>
 
 </html>
