@@ -16,6 +16,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    &:hover {
+        transform: scale(1.15);
+    }
 }
 
 /*PRINCIPAL TITLE*/
@@ -64,6 +67,9 @@
          display: flex;
          justify-content: center;
          align-items: center;
+         &:hover {
+             transform: scale(1.15);
+         }
 
          &--scrolldown {
              width: 20px;
