@@ -5,7 +5,8 @@
     height: 100vh;
 }
 
-.header__nav {
+/*NAVIGATION MENU*/
+.menu {
     width: 44px;
     height: 44px;
     padding: 15px 14px;
@@ -17,47 +18,57 @@
     align-items: center;
 }
 
-.header__div {
+/*PRINCIPAL TITLE*/
+.title {
     color: $whiteText;
     text-align: center; 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    &__title {
+        width: 290px;
+        height: 110px;
+        font-family: $titleFont;
+        font-weight: bold;
+        font-size: 42px;
+        text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+        line-height: 1.31;
+        text-transform: uppercase;
+        margin: 284px 15px 10px; 
+    }
+
+    &__text {
+         width: 290px;
+         height: 21px;
+         font-family: $textFont;
+         font-size: 16px;
+         margin: 0 15px 45px;
+    }
 }
 
-.div__title--title {
-    width: 290px;
-    height: 110px ;
-    font-family: $titleFont;
-    font-weight: bold;
-    font-size: 42px;
-    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
-    line-height: 1.31;
-    text-transform: uppercase;
-    margin: 284px 15px 10px;
-}
+/*BUTTON GO*/
+.header__button {
+    display: flex;
+    justify-content: center;
 
-.div__title--text {
-    width: 290px;
-    height: 21px;
-    font-family: $textFont;
-    font-size: 16px;
-    margin: 0 15px 45px;
-}
+    &--button {
+         width: 45px;
+         height: 45px;
+         border-radius: 22.5px;
+         border: none;
+         margin: 0 137px 53px 138px;
+         padding: 18px 12px 15.3px 13px;
+         background: #ffffff;
+         display: flex;
+         justify-content: center;
+         align-items: center;
 
-.header__div--button {
-    width: 45px;
-    height: 45px;
-    border-radius: 22.5px;
-    border: none;
-    margin: 0 137px 53px 138px;
-    padding: 18px 12px 15.3px 13px;
-    background: #ffffff;
-}
-
-.button__link--scrolldown {
-    width: 20px;
-    height: 11.7px;
-    object-fit: contain;
+         &--scrolldown {
+             width: 20px;
+             height: 11.7px;
+             object-fit: contain;
+         }
+    }
 }
