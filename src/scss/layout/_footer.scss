@@ -1,0 +1,70 @@
+.footer {
+    background: $bgFooterColor;
+    color: $whiteText;
+}
+
+.footer__button {
+    width: 45px;
+    height: 45px;
+    border-radius: 22.5px;
+    border: none;
+    background: #ffffff;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: -20px;
+        &--link {
+        padding: 20px 10px 10px;
+    }
+}
+
+.footer__nav {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.nav__list {
+    font-family: $textFont;
+    font-size: 16px;
+    color: $whiteText;
+    line-height: 1.88;
+    text-transform: uppercase;
+    text-align: center;
+        & .list__articles--item, .list__socialmedia--item {
+        list-style-type: none;
+            & .link {
+            text-decoration: none;
+            color: $whiteText;
+        }
+    }
+}
+
+.articles {
+    width: 73px;
+    height: 150px;
+    margin: 20px 0 15px;
+}
+
+.socialmedia {
+    width: 147px;
+    height: 90px;
+    margin: 15px 0 30px;
+}
+
+.footer__div {
+    height: 60px;
+    font-family: $textFont;
+    font-size: 14px;
+    line-height: 2.14;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+        & .heart {
+        color: $buttonColor;
+    } 
+}
