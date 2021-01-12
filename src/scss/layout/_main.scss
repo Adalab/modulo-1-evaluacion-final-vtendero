@@ -118,8 +118,8 @@
     }  
 }
 
-/*BUTTON*/
-.button {
+/*BUTTON REASONS*/
+.main__button {
     grid-column: span 3;
     width: 184px;
     height: 45px;
@@ -135,7 +135,7 @@
         width: 190px;
     }
 
-    &__link {
+    &--link {
         text-decoration: none;
         color: $whiteText;
         font-family: $textFont;
