@@ -27,13 +27,16 @@
     margin-right: auto;
     animation: start 1s alternate infinite ease-in;
     top: -20px;
+    padding: 11px;
+    // display: flex;
+    // transform: translate(0, 0);
 
-    &--link {
-        padding: 20px 10px 10px;
-    }
-    
     @media all and (min-width: 768px) {
-        
+        left: 120px;
+    }
+
+    @media all and (min-width: 1280px) {
+        left: 75px;
     }
 }
 
