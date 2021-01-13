@@ -39,15 +39,42 @@
         text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
         line-height: 1.31;
         text-transform: uppercase;
-        margin: 284px 15px 10px; 
+        margin: 284px 15px 10px;
+    
+        @media all and (min-width: 768px) {
+            width: 690px;
+            height: 212px;
+            font-size: 80px;
+            line-height: 1.33;
+            margin: 384px 0 20px;
+        }
+
+        @media all and (min-width: 1280px) {
+            width: 730px;
+            height: 264px;
+            font-size: 100px;
+            line-height: 1.32;
+            margin: 384px 0 0;
+        }
     }
 
     &__text {
-         width: 290px;
-         height: 21px;
-         font-family: $textFont;
-         font-size: 16px;
-         margin: 0 15px 45px;
+        width: 290px;
+        height: 21px;
+        font-family: $textFont;
+        font-size: 16px;
+        margin: 0 15px 45px;
+         
+         @media all and (min-width: 768px) {
+            width: 360px;
+            height: 32px;
+            font-size: 24px;
+            margin: 0 0 30px;
+         }
+
+         @media all and (min-width: 1280px) {
+             font-size: 24px;
+         }
     }
 }
 
