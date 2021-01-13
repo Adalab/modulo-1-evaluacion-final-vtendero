@@ -166,8 +166,6 @@
             grid-template-columns: repeat(3, 212.3px);
             grid-template-rows: 1fr;
             column-gap: 27.7px;
-            // justify-content: center;
-            // text-align: center;
         }
 
         @media all and (min-width: 1280px) {
@@ -217,7 +215,6 @@
         }
 
         &--text {
-            // width: 180px;
             font-family: $textFont;
             font-size: 18px;
             line-height: 1.67;
