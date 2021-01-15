@@ -1,0 +1,21 @@
+.specialOffer {
+    background: $buttonColor;
+    display: none;
+
+    &--subtitle {
+        margin-bottom: 10px;
+    }
+
+    @media all and (min-width:768px) {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        &__div {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+
+    }
+}
