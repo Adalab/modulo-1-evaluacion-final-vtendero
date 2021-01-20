@@ -3,7 +3,7 @@
     background: $bgFooterColor;
     color: $whiteText;
 
-    @media all and (min-width: 768px) {
+    @include tablet {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -11,7 +11,7 @@
         height: 240px;
     }
 
-    @media all and (min-width: 1280px) {
+    @include desktop {
         padding: 0 ;
     }
 }
@@ -56,14 +56,14 @@
     text-align: center;
     justify-content: center;
 
-    @media all and (min-width: 768px) {
+    @include tablet {
         flex-direction: row;
         width: 459px;
         height: 150px;
         padding-top: 45px;
     }
 
-    @media all and (min-width: 1280px) {
+    @include desktop {
         width: 350px;
     }
 
@@ -76,12 +76,12 @@
             list-style-type: none;
         }
     
-        @media all and (min-width: 768px) {
+        @include tablet {
             width: 210px;
             text-align: left;
         }
 
-        @media all and (min-width: 1280px) {
+        @include desktop {
             width: 161px;
         }
     }
@@ -94,13 +94,13 @@
             list-style-type: none;
         }
 
-        @media all and (min-width: 768px) {
+        @include tablet {
             width: 210px;
             height: 90px;
             text-align: left;
         }
 
-        @media all and (min-width: 1280px) {
+        @include desktop {
             width: 159px;
         }
     }
@@ -125,7 +125,7 @@
     display: flex;
     flex-direction: column;
 
-     @media all and (min-width: 768px) {
+     @include tablet {
         flex-direction: column;
         width: 210px;
         height: 150px;

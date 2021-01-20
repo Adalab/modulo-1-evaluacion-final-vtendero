@@ -45,7 +45,7 @@
         text-transform: uppercase;
         margin: 0 15px 10px;
     
-        @media all and (min-width: 768px) {
+        @include tablet {
             width: 690px;
             height: 212px;
             font-size: 80px;
@@ -53,7 +53,7 @@
             margin: 0 0 20px;
         }
 
-        @media all and (min-width: 1280px) {
+        @include desktop {
             width: 730px;
             height: 264px;
             font-size: 100px;
@@ -68,14 +68,14 @@
         font-size: 16px;
         margin: 0 15px 45px;
          
-         @media all and (min-width: 768px) {
+         @include tablet {
             width: 360px;
             height: 32px;
             font-size: 24px;
             margin: 0 0 30px;
          }
 
-         @media all and (min-width: 1280px) {
+         @include desktop {
              font-size: 24px;
          }
     }
@@ -86,7 +86,7 @@
     display: flex;
     justify-content: center;
 
-    &--button {
+    &--link {
          width: 45px;
          height: 45px;
          border-radius: 22.5px;
