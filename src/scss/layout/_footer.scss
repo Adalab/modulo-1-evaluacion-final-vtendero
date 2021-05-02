@@ -42,7 +42,7 @@
 }
 
 /*NAVIGATION MENU FOOTER*/
-.nav {
+.links {
     list-style-type: none;
     text-decoration: none;
     display: flex;
@@ -67,7 +67,7 @@
         width: 350px;
     }
 
-    &__articles {
+    &__sections {
         width: 73px;
         height: 150px;
         margin-bottom:30px;
@@ -116,7 +116,7 @@
 }
 
 /*COPYRIGHT*/
-.footer__div {
+.copyContainer {
     height: 60px;
     font-family: $textFont;
     font-size: 14px;
